@@ -344,13 +344,21 @@ public class SimpleIME extends InputMethodService
                         break;
 
                      //added for english alt key starts
-                    case 550:
-                        System.err.println("inside alt  550");
+                    case 3500:
+                        System.err.println("inside alt  3500");
                         keyboard = new Keyboard(this, R.xml.english_alt);
                         kv.setKeyboard(keyboard);
                         break;
 
                      //added for english alt keys ends
+                    ////
+                    case 550:
+                        System.err.println("inside alt  550");
+                        keyboard = new Keyboard(this, R.xml.phonetic_alt);
+                        kv.setKeyboard(keyboard);
+                        break;
+/////
+
 
                     case 44:
 
