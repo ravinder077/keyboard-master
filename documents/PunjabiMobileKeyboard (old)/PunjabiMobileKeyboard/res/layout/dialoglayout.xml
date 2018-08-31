@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <TextView 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Valid Spell Check Utility"
+    android:textStyle="bold"
+    /> 
+   <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       > 
+<Button 
+    android:id="@+id/firstbutton"
+    android:text="ਚਾਲੂ ਕਰੋ"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    />
+<Button 
+    android:id="@+id/secondbutton"
+    android:text="ਬੰਦ ਕਰੋ"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    />
+</LinearLayout>
+<TextView 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Gurmukhi Numerals Utility"
+    android:textStyle="bold"
+    />
+
+	 <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       
+       > 
+<Button 
+    android:id="@+id/thirdbutton"
+    android:text="ਚਾਲੂ ਕਰੋ"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    />
+<Button 
+    android:id="@+id/fourthbutton"
+    android:text="ਬੰਦ ਕਰੋ"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    />
+</LinearLayout>
+
+
+
+</LinearLayout>

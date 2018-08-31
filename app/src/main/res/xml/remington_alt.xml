@@ -1,0 +1,74 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dp"
+    >
+    <Row android:keyHeight="5%" android:rowEdgeFlags="top">
+        <Key android:codes="123456789" android:keyLabel="REMINGTON ALT LAYOUT ON" android:keyWidth="100%p"  android:keyEdgeFlags="left" android:isSticky="false" >
+        </Key></Row>
+    <Row  android:keyHeight="5%">
+        <Key  android:codes="2003801" android:keyLabel="ਇਨਸਕਰਿਪਟ" android:keyWidth="24%p"  android:keyEdgeFlags="left"/>
+        <Key  android:codes="2003802" android:keyLabel="ਫੋਨੈਟਿਕ" android:keyWidth="17%p"  />
+        <Key  android:codes="2003803" android:keyLabel="ਰਮਿੰਗਟਨ" android:keyWidth="19%p"  />
+        <Key  android:codes="2003804" android:keyLabel="ਅੰਗਰੇਜ਼ੀ" android:keyWidth="16%p"  />
+        <Key  android:codes="2003805" android:keyLabel="ਿ" android:keyWidth="10%p"  />
+        <Key  android:codes="2003806" android:keyLabel="ਮਦਦ" android:keyWidth="14%p" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:codes="2676" android:keyLabel="ੴ" android:keyEdgeFlags="left"/>
+        <Key android:codes="9772" android:keyLabel="☬"/>
+        <Key android:codes="2590" android:keyLabel="ਞ"/>
+        <Key android:codes="2585" android:keyLabel="ਙ"/>
+        <Key android:codes="8377" android:keyLabel="₹"/>
+        <Key android:codes="2649" android:keyLabel="ਖ਼"/>
+        <Key android:codes="2654" android:keyLabel="ਫ਼"/>
+        <Key android:codes="2614" android:keyLabel="ਸ਼"/>
+        <Key android:codes="2650" android:keyLabel="ਗ਼"/>
+        <Key android:codes="2651" android:keyLabel="ਜ਼" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2637" android:keyLabel="ਰ" android:keyEdgeFlags="left"/>
+        <Key android:codes="8205" android:keyLabel="ਮਿੰ"/>
+        <Key android:codes="8205" android:keyLabel="ਗ"/>
+        <Key android:codes="8205" android:keyLabel="ਟ"/>
+        <Key android:codes="8205" android:keyLabel="ਨ"/>
+        <Key android:codes="8205" android:keyLabel="ਅ"/>
+        <Key android:codes="8205" android:keyLabel="ਲ"/>
+        <Key android:codes="8205" android:keyLabel="ਟ"/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="2602000" android:keyLabel="ਪੀ" android:keyEdgeFlags="right"/>///////
+    </Row>
+    <Row>
+        <Key android:codes="8205" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="2616000" android:keyLabel="ਸੀ"/>/////////////////
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="2581000" android:keyLabel="ਕੰ"/>
+        <Key android:codes="8205" android:keyLabel="" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyWidth="20%p" android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="2607000" android:keyLabel="ਯੂ"/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=""/>
+        <Key android:codes="8205" android:keyLabel=" "/>
+
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="70003" android:keyLabel="BACK" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="ENTER" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

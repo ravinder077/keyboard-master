@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+    >
+
+<TextView
+    style="@android:style/TextAppearance.DeviceDefault.Small"
+    android:layout_width="351dp"
+    android:layout_height="459dp"
+    android:layout_marginTop="5dp"
+    android:text="Welcome to PUP_Borad, developed by Dr. C P Kamboj, Punjabi University Patiala Go to SETTING > LANGUAGEAND INPUT > CURRENT KEYBOARD > CHOOSE KEYBOARD > SELECT PUPBoard Open any Text Pad, SMS app, Whatsapp, Search Engine and tap in text box, PUPBorad will appear automatically; By default it displays Inscript Keyboard Layout but you can choose Phonetic, Remington or English keyboard layout; Shift buttons can be seen by tapping on SHIFT button. ALT button helps to type special symbols and some special characters."
+    android:textColor="@android:color/holo_blue_dark"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:typeface="serif" />
+
+</LinearLayout>

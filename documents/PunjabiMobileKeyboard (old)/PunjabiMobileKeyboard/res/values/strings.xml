@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gur-Type</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+      
+	<string name="nstring">NOTIFICATIONService Start</string>
+    <string name="Pstring">Pending Service Start</string>
+    <string name="stopString">Service Stop</string>
+	
+    <string name="action_settings">Settings</string>
+  
+	<string name="toggle_turn_on">On</string>
+    <string name="toggle_turn_off">Off</string>
+</resources>
