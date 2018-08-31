@@ -5,7 +5,7 @@
     android:keyHeight="50dp"
     >
     <Row android:keyHeight="5%" android:rowEdgeFlags="top">
-        <Key android:codes="123456789" android:keyLabel="PHONETIC SHIFT LAYOUT ON" android:keyWidth="100%p"  android:keyEdgeFlags="left" android:isSticky="false" >
+        <Key android:codes="123456789" android:keyLabel="PHONETIC ALT LAYOUT ON" android:keyWidth="100%p"  android:keyEdgeFlags="left" android:isSticky="false" >
         </Key></Row>
     <Row  android:keyHeight="5%">
         <Key  android:codes="2003801" android:keyLabel="ਇਨਸਕਰਿਪਟ" android:keyWidth="26%p"  android:keyEdgeFlags="left"/>
@@ -63,8 +63,8 @@
 
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <!--to click on back button it should go to phonetic.xml-->
-        <Key android:codes="550" android:keyLabel="BACK" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+        <!--resolved-->
+        <Key android:codes="70013" android:keyLabel="BACK" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
         <Key android:codes="-4" android:keyLabel="ENTER" android:keyWidth="20%p" android:keyEdgeFlags="right"/>

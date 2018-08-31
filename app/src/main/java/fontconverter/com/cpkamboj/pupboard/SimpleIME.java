@@ -358,7 +358,20 @@ public class SimpleIME extends InputMethodService
                         kv.setKeyboard(keyboard);
                         break;
 /////
-
+                    ////english_alt BSCK
+                    case 70001:
+                        System.err.println("inside alt  70001");
+                        keyboard = new Keyboard(this, R.xml.english);
+                        kv.setKeyboard(keyboard);
+                        break;
+/////
+                    ////phonetic_alt BSCK
+                    case 70013:
+                        System.err.println("inside alt  70013");
+                        keyboard = new Keyboard(this, R.xml.phonetic);
+                        kv.setKeyboard(keyboard);
+                        break;
+/////
 
                     case 44:
 
