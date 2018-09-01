@@ -33,9 +33,7 @@ android:gravity="center"
             android:orientation="vertical"
             tools:context=".about">
 
-
-
-            <TextView
+           <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center"
@@ -85,12 +83,13 @@ android:gravity="center"
                 android:id="@+id/t4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="0dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ (Punjbai University Patiala); cpk@pbi.ac.in ; www.meracomputer.com ; www.cpkamboj.com ; 01753046566 (o)"
+                android:text="ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ (Punjabi University Patiala); cpk@pbi.ac.in ; www.meracomputer.com ; www.cpkamboj.com ; 01753046566 (o)"
                 android:textSize="15sp" />
+
             <TextView
                 android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
                 android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
