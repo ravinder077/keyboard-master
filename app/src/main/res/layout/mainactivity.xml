@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:gravity="center"
     >
-
-<TextView
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pboard" />
+<!--<TextView
     style="@android:style/TextAppearance.DeviceDefault.Small"
     android:layout_width="351dp"
     android:layout_height="459dp"
@@ -14,6 +20,114 @@ android:gravity="center"
     android:textColor="@android:color/holo_blue_dark"
     android:textSize="20dp"
     android:textStyle="bold"
-    android:typeface="serif" />
+    android:typeface="serif" />-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".about">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="ਪੰਜਾਬੀ ਬੋਰਡ (pBoard)"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:id="@+id/t1"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="0dp"
+                android:padding="2dp"
+                android:text="ਪੰਜਾਬੀ ਦੇ ਤਿੰਨੋਂ ਕੀ-ਬੋਰਡਾਂ ਦੀ ਸਾਂਝੀ ਐਪ"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
+                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
+                android:text="--------------------" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="2dp"
+                android:padding="0dp"
+                android:text="ਐਪ ਤਿਆਰ ਕਰਤਾ (App Developer)"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="0dp"
+                android:padding="0dp"
+                android:text="ਡਾ. ਸੀ ਪੀ ਕੰਬੋਜ (Dr. C P Kamboj)"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ (Punjbai University Patiala); cpk@pbi.ac.in ; www.meracomputer.com ; www.cpkamboj.com ; 01753046566 (o)"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
+                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
+                android:text="--------------------" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="5dp" android:padding="5dp" android:textSize="15sp" android:textStyle="bold"
+                android:text="ਤਕਨੀਕੀ ਸਹਿਯੋਗ (Technical Help)"
+                android:id="@+id/t31"/>
+            <TextView
+                android:id="@+id/t332"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="0dp"
+                android:padding="0dp"
+                android:text="ਰਵਿੰਦਰ ਕੰਬੋਜ (Ravinder Kamboj)"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/t41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="TueSpot Solution, FF Raod, Near Khan Hospital, Jalalabad (w) ; www.smartalk.in ; 9597151742"
+                android:textSize="14sp"
+                android:textStyle="" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
+                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
+                android:text="--------------------" />
+
+            /////////////
+
+        </LinearLayout></ScrollView>
 
 </LinearLayout>
