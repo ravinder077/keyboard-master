@@ -37,7 +37,7 @@
         <Key android:codes="2625" android:keyLabel="ੁ"/>
         <Key android:codes="2623" android:keyLabel="ਿ"/>
         <Key android:codes="2635" android:keyLabel="ੋ"/>
-        <Key android:codes="2602" android:keyLabel="ਪ" android:keyEdgeFlags="right"/>
+        <Key android:codes="2602,2590" android:keyLabel="ਪ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="2675" android:keyLabel="ੳ" android:keyEdgeFlags="left"/>

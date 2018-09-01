@@ -428,7 +428,21 @@ public class SimpleIME extends InputMethodService
                             e.printStackTrace();
                         }
                         break;
-//
+//।।।।.....।।
+                    case 26622662:
+                        utf8 = Charset.forName("UTF-8");
+                        def = Charset.defaultCharset();
+                        message = null;
+                        charToPrint = "\u0964\u0964";
+                        try {
+                            byte[] bytes = charToPrint.getBytes("UTF-8");
+                            message = new String(bytes, def.name());
+                            ic.commitText(message, 1);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                        ///////
                     case 2617000:
                         utf8 = Charset.forName("UTF-8");
                         def = Charset.defaultCharset();
@@ -444,12 +458,6 @@ public class SimpleIME extends InputMethodService
                         break;
                     //
                 ////Alt cases
-                    case 2602000:
-                        utf8 = Charset.forName("UTF-8");def = Charset.defaultCharset();message = null;
-                        charToPrint = "\u0A2A\u0A40";
-                        try {byte[] bytes = charToPrint.getBytes("UTF-8");
-                            message = new String(bytes, def.name());ic.commitText(message, 1);
-                        } catch (Exception e) {e.printStackTrace();}break;
 
                         ////
                         case 2608200://.com
@@ -520,24 +528,24 @@ public class SimpleIME extends InputMethodService
                         try {byte[] bytes = charToPrint.getBytes("UTF-8");
                             message = new String(bytes, def.name());ic.commitText(message, 1);
                         } catch (Exception e) {e.printStackTrace();}break;
-                    ////
-                    case 2616000:
+                    case 26082625://ਰੁ
                         utf8 = Charset.forName("UTF-8");def = Charset.defaultCharset();message = null;
-                        charToPrint = "\u0A38\u0A40";
+                        charToPrint = "\u0A30\u0A41";
                         try {byte[] bytes = charToPrint.getBytes("UTF-8");
                             message = new String(bytes, def.name());ic.commitText(message, 1);
                         } catch (Exception e) {e.printStackTrace();}break;
-                        ///
-                    case 2581000:
+                    ////ਸੀ ਪੀ ਕੰਬੋਜ
+                    case 25810001:
                         utf8 = Charset.forName("UTF-8");def = Charset.defaultCharset();message = null;
-                        charToPrint = "\u0A15\u0A70\u0A2C\u0A4B\u0A1C";
+                        charToPrint = "\u0A38\u0A40\u0020\u0A2A\u0A40\u0020\u0A15\u0A70\u0A2C\u0A4B\u0A1C ";
                         try {byte[] bytes = charToPrint.getBytes("UTF-8");
                             message = new String(bytes, def.name());ic.commitText(message, 1);
                         } catch (Exception e) {e.printStackTrace();}break;
-                        ////
+                    ///
+                    /////ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ
                     case 2607000:
                         utf8 = Charset.forName("UTF-8");def = Charset.defaultCharset();message = null;
-                        charToPrint = "\u0A2A\u0A70\u0A1C\u0A3E\u0A2C\u0A40\u0020\u0A2F\u0A42\u0A28\u0A40\u0A35\u0A30\u0A38\u0A3F\u0A1F\u0A40\u0020\u0A2A\u0A1F\u0A3F\u0A06\u0A32\u0A3E";
+                        charToPrint = "\u0A2A\u0A70\u0A1C\u0A3E\u0A2C\u0A40\u0020\u0A2F\u0A42\u0A28\u0A40\u0A35\u0A30\u0A38\u0A3F\u0A1F\u0A40\u0020\u0A2A\u0A1F\u0A3F\u0A06\u0A32\u0A3E ";
                         try {byte[] bytes = charToPrint.getBytes("UTF-8");
                             message = new String(bytes, def.name());ic.commitText(message, 1);
                         } catch (Exception e) {e.printStackTrace();}break;

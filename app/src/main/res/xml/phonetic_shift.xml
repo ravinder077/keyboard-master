@@ -36,7 +36,7 @@
         <Key android:codes="2626" android:keyLabel="ੂ"/>
         <Key android:codes="2624" android:keyLabel="ੀ"/>
         <Key android:codes="2636" android:keyLabel="ੌ"/>
-        <Key android:codes="2603" android:keyLabel="ਫ" android:keyEdgeFlags="right"/>
+        <Key android:codes="2603,2585" android:keyLabel="ਫ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="2565" android:keyLabel="ਅ" android:keyEdgeFlags="left"/>

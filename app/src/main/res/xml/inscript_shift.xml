@@ -36,7 +36,7 @@
         <Key android:codes="2585" android:keyLabel="ਙ"/>
         <Key android:codes="2584" android:keyLabel="ਘ"/>
         <Key android:codes="2599" android:keyLabel="ਧ"/>
-        <Key android:codes="2589" android:keyLabel="ਝ" android:keyEdgeFlags="right"/>
+        <Key android:codes="2589,2593,2590" android:keyLabel="ਝ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="2579" android:keyLabel="ਓ" android:keyEdgeFlags="left"/>
@@ -48,7 +48,7 @@
         <Key android:codes="2652" android:keyLabel="ੜ"/>
         <Key android:codes="2582" android:keyLabel="ਖ"/>
         <Key android:codes="2597" android:keyLabel="ਥ"/>
-        <Key android:codes="2587" android:keyLabel="ਛ" android:keyEdgeFlags="right"/>
+        <Key android:codes="2587,2592" android:keyLabel="ਛ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:keyWidth="16%p" android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
@@ -58,7 +58,7 @@
         <Key android:codes="2652" android:keyLabel="ੲ"/>
         <Key android:codes="2674" android:keyLabel="ਲ਼"/>
         <Key android:codes="2611" android:keyLabel="ਸ਼"/>
-        <Key android:codes="2614" android:keyLabel="."/>
+        <Key android:codes="2404" android:keyLabel="।"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="14%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
