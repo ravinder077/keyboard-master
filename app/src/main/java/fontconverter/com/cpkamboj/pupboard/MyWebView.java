@@ -24,3 +24,5 @@ public class MyWebView extends AppCompatActivity {
 
     }
 }
+/*
+Name should be PBoard instead of PUPBoard*/
