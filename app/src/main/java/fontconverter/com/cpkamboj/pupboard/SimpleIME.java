@@ -147,10 +147,24 @@ public class SimpleIME extends InputMethodService
                        break;
 
                     case 70003:
+                        keyboard = new Keyboard(this, R.xml.remington_alt);
+                        kv.setKeyboard(keyboard);
+                        kv.invalidateAllKeys();
+                        break;
+
+                    case 700120:
+                        keyboard = new Keyboard(this, R.xml.english);
+                        kv.setKeyboard(keyboard);
+                        kv.invalidateAllKeys();
+                        break;
+
+                    case 700030:
                         keyboard = new Keyboard(this, R.xml.remington);
                         kv.setKeyboard(keyboard);
                         kv.invalidateAllKeys();
                         break;
+
+
                     case 70004:
                         keyboard = new Keyboard(this, R.xml.english);
                         kv.setKeyboard(keyboard);
@@ -222,7 +236,7 @@ public class SimpleIME extends InputMethodService
                         kv.invalidateAllKeys();
                         break;
 
-
+//////////////////////////////////////////////
 
                   case Keyboard.KEYCODE_SHIFT:
                       SharedPreferences prefs = getSharedPreferences(MyPREFERENCES, MODE_PRIVATE);
@@ -365,10 +379,23 @@ public class SimpleIME extends InputMethodService
                         kv.setKeyboard(keyboard);
                         break;
 /////
+                    ///english_alt BSCK
+                    case 60023:
+                        System.err.println("inside alt  60023");
+                        keyboard = new Keyboard(this, R.xml.remington);
+                        kv.setKeyboard(keyboard);
+                        break;
                     ////phonetic_alt BSCK
                     case 70013:
                         System.err.println("inside alt  70013");
                         keyboard = new Keyboard(this, R.xml.phonetic);
+                        kv.setKeyboard(keyboard);
+                        break;
+/////
+                    ////english-alt BSCK
+                    case 70012:
+                        System.err.println("inside alt  70012");
+                        keyboard = new Keyboard(this, R.xml.english_alt);
                         kv.setKeyboard(keyboard);
                         break;
 /////

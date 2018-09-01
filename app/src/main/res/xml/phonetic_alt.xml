@@ -63,7 +63,7 @@
 
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <!--resolved-->
+        <!--to click on back button it should go to phonetic.xml-->
         <Key android:codes="70013" android:keyLabel="BACK" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>

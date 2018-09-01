@@ -9,12 +9,11 @@
             android:keyEdgeFlags="left" android:isSticky="false" >
         </Key></Row>
     <Row  android:keyHeight="5%">
-        <Key  android:codes="2003801" android:keyLabel="ਇਨਸਕਰਿਪਟ" android:keyWidth="24%p"  android:keyEdgeFlags="left"/>
-        <Key  android:codes="2003802" android:keyLabel="ਫੋਨੈਟਿਕ" android:keyWidth="17%p"  />
-        <Key  android:codes="2003803" android:keyLabel="ਰਮਿੰਗਟਨ" android:keyWidth="19%p"  />
-        <Key  android:codes="2003804" android:keyLabel="ਅੰਗਰੇਜ਼ੀ" android:keyWidth="16%p"  />
-        <Key  android:codes="2003805" android:keyLabel="ਿ" android:keyWidth="10%p"  />
-        <Key  android:codes="2003806" android:keyLabel="ਮਦਦ" android:keyWidth="14%p" android:keyEdgeFlags="right" />
+        <Key  android:codes="2003801" android:keyLabel="ਇਨਸਕਰਿਪਟ" android:keyWidth="26%p"  android:keyEdgeFlags="left"/>
+        <Key  android:codes="2003802" android:keyLabel="ਫੋਨੈਟਿਕ" android:keyWidth="19%p"  />
+        <Key  android:codes="2003803" android:keyLabel="ਰਮਿੰਗਟਨ" android:keyWidth="21%p"  />
+        <Key  android:codes="2003804" android:keyLabel="ਅੰਗਰੇਜ਼ੀ" android:keyWidth="18%p"  />
+        <Key  android:codes="2003806" android:keyLabel="ਮਦਦ" android:keyWidth="16%p" android:keyEdgeFlags="right" />
     </Row>
     <Row>
         <Key android:codes="2663" android:keyLabel="੧" android:keyEdgeFlags="left"/>
@@ -53,7 +52,7 @@
         <Key android:codes="2607" android:keyLabel="ਯ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyWidth="20%p" android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
+        <Key android:keyWidth="16%p" android:codes="-1" android:keyLabel="SHIFT" android:keyEdgeFlags="left"/>
         <Key android:codes="2673" android:keyLabel="ੱ"/>
         <Key android:codes="2599" android:keyLabel="ਧ"/>
         <Key android:codes="2585" android:keyLabel="ਙ"/>
@@ -61,12 +60,10 @@
         <Key android:codes="2600" android:keyLabel="ਨ"/>
         <Key android:codes="2591" android:keyLabel="ਟ"/>
         <Key android:codes="2589" android:keyLabel="ਝ"/>
-        <Key android:codes="63" android:keyLabel="."/>
-
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="14%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="60003" android:keyLabel="ALT" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
-
+        <Key android:codes="70003" android:keyLabel="ALT" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
         <Key android:codes="-4" android:keyLabel="ENTER" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
