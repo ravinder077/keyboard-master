@@ -62,10 +62,10 @@
         <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="14%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="70012" android:keyLabel="ALT" android:keyWidth="20%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="70012" android:keyLabel="ALT" android:keyWidth="26%p"  android:keyEdgeFlags="left"/>
 
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>
-        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>
-        <Key android:codes="-4" android:keyLabel="ENTER" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="48%p" android:isRepeatable="true"/>
+
+        <Key android:codes="-4" android:keyLabel="ENTER" android:keyWidth="26%p" android:keyEdgeFlags="right"/>
     </Row>
    </Keyboard>
