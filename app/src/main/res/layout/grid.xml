@@ -20,22 +20,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/background"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-100dp">
-
+        android:layout_marginTop="-110dp">
+<!--grid.xml ਪੇਜ ਦੇ ਲੋਗੋ ਦੇ ਹੇਠਾਂ ਬਚਦੀ ਖਾਲੀ ਸਪੇਸ ਨੁੰ ਹੈਂਡਲ ਕੀਤਾ ਜਾਵੇ ਜੀ-->
+        <!--mainactivity.xml ਪੇਜ ਦਾ ਟੈਕਸਟ ਸਹੀ ਅਲਾਈਨ ਨਹੀਂ ਹੋ ਰਿਹਾ;;; ਇਸ ਨੂੰ ਵੈਬ ਵੀਊ ਵਿਚ ਵਿਖਾਉਣ ਦੀ ਲੋੜ ਹੈ-->
         <com.mikhaellopez.circularimageview.CircularImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/p"
             app:civ_border_color="@color/semiTransparentWhite"
             app:civ_border_width="10dp" />
-
+    </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="24dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="12dp"
             android:layout_gravity="bottom">
 
             <TextView
@@ -43,10 +44,28 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:text="@string/cp_kamboj"
-                android:textSize="20sp"
-                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/cp_kamboj1"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
                 android:textColor="@android:color/black"/>
-        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/about_kb"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black"/>
     </LinearLayout>
 
     <!--<android.support.v7.widget.Toolbar
