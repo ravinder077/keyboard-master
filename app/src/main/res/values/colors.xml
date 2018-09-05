@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="semiTransparentWhite">#40FFFFFF</color>
+    <color name="coltrans1">#a40c9ae1</color>
+    <color name="coltrans2">#a40ce17a</color>
+    <color name="coltrans3">#a4e10cd6</color>
 </resources>
