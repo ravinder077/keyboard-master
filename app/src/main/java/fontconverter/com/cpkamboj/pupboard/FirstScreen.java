@@ -24,7 +24,7 @@ public class FirstScreen extends AppCompatActivity{
         textView=(TextView)findViewById(R.id.textView);
         textView.setText("");
 
-        final long period = 30;
+        final long period = 10;
         timer=new Timer();
         timer.schedule(new TimerTask() {
             @Override

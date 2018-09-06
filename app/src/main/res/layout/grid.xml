@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/background"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-110dp">
+        android:layout_marginTop="-140dp">
 <!--grid.xml ਪੇਜ ਦੇ ਲੋਗੋ ਦੇ ਹੇਠਾਂ ਬਚਦੀ ਖਾਲੀ ਸਪੇਸ ਨੁੰ ਹੈਂਡਲ ਕੀਤਾ ਜਾਵੇ ਜੀ-->
         <!--mainactivity.xml ਪੇਜ ਦਾ ਟੈਕਸਟ ਸਹੀ ਅਲਾਈਨ ਨਹੀਂ ਹੋ ਰਿਹਾ;;; ਇਸ ਨੂੰ ਵੈਬ ਵੀਊ ਵਿਚ ਵਿਖਾਉਣ ਦੀ ਲੋੜ ਹੈ-->
         <com.mikhaellopez.circularimageview.CircularImageView
@@ -39,7 +39,7 @@
             android:layout_marginBottom="12dp"
             android:layout_gravity="bottom">
 
-            <TextView
+           <!-- <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
@@ -47,14 +47,14 @@
                 android:textColor="@android:color/black"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold" />-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:text="@string/cp_kamboj1"
-                android:textSize="15sp"
-                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textStyle="bold"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"/>
             <TextView
@@ -63,7 +63,7 @@
                 android:fontFamily="sans-serif-light"
                 android:text="@string/about_kb"
                 android:textAlignment="center"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="normal"
                 android:textColor="@android:color/black"/>
     </LinearLayout>
@@ -83,14 +83,15 @@
             android:text="About"
             android:textSize="24sp" />
     </android.support.v7.widget.Toolbar>-->
+<!--first Row==================================-->
 
     <LinearLayout
         android:layout_below="@id/n_l"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical"
-        android:weightSum="2"
+        android:weightSum="3"
         >
 
         <LinearLayout
@@ -100,15 +101,15 @@
             android:weightSum="2"
             >
             <Button
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
                 android:gravity="center"
                 android:layout_width="0dp"
                 android:elevation="10dp"
                 android:textColor="@android:color/white"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:text="@string/keyboard"
                 android:layout_height="match_parent"
@@ -119,9 +120,9 @@
 
             <Button
                 android:id="@+id/settings_btn"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:elevation="10dp"
                 android:layout_width="0dp"
@@ -130,25 +131,43 @@
                 android:textColor="@android:color/white"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:text="@string/settings"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:background="@android:color/holo_blue_bright"
                 >
             </Button>
         </LinearLayout>
-
+<!--///////////--><!--second Row==================================-->
         <LinearLayout
-            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:weightSum="2"
             >
             <Button
-                android:id="@+id/feedback"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:elevation="10dp"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="@string/help"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                >
+            </Button>
+
+            <Button
+
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:elevation="10dp"
                 android:layout_width="0dp"
@@ -157,7 +176,35 @@
                 android:textColor="@android:color/white"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textSize="17sp"
+                android:textSize="16sp"
+                android:text="@string/cha"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@android:color/holo_purple"
+                >
+            </Button>
+        </LinearLayout>
+       <!-- ////////////////--><!--third Row==================================-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="10dp"
+            >
+            <Button
+                android:id="@+id/feedback"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:elevation="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="16sp"
                 android:text="@string/feedback"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:background="@android:color/holo_orange_light"
@@ -166,9 +213,9 @@
 
             <Button
                 android:id="@+id/about_btn"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:elevation="10dp"
                 android:layout_width="0dp"
@@ -178,7 +225,7 @@
                 android:textStyle="bold"
                 android:text="@string/about"
                 android:layout_weight="1"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:background="@android:color/holo_green_light"
                 >

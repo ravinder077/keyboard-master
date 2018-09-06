@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button key,set,fed,abu;
+
     @Override
     protected void onCreate(Bundle b)
     {
@@ -37,8 +38,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0);
+
+
             }
         });
 
+
     }
+
 }

@@ -6,21 +6,23 @@
     android:layout_height="match_parent"
     android:gravity="center"
     >
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/pboard" />
-<!--<TextView
-    style="@android:style/TextAppearance.DeviceDefault.Small"
-    android:layout_width="351dp"
-    android:layout_height="459dp"
-    android:layout_marginTop="5dp"
-    android:text="Welcome to PUP_Borad, developed by Dr. C P Kamboj, Punjabi University Patiala Go to SETTING > LANGUAGEAND INPUT > CURRENT KEYBOARD > CHOOSE KEYBOARD > SELECT PUPBoard Open any Text Pad, SMS app, Whatsapp, Search Engine and tap in text box, PUPBorad will appear automatically; By default it displays Inscript Keyboard Layout but you can choose Phonetic, Remington or English keyboard layout; Shift buttons can be seen by tapping on SHIFT button. ALT button helps to type special symbols and some special characters."
-    android:textColor="@android:color/holo_blue_dark"
-    android:textSize="20dp"
-    android:textStyle="bold"
-    android:typeface="serif" />-->
+    <!--<TextView
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_width="351dp"
+        android:layout_height="459dp"
+        android:layout_marginTop="5dp"
+        android:text="Welcome to PUP_Borad, developed by Dr. C P Kamboj, Punjabi University Patiala Go to SETTING > LANGUAGEAND INPUT > CURRENT KEYBOARD > CHOOSE KEYBOARD > SELECT PUPBoard Open any Text Pad, SMS app, Whatsapp, Search Engine and tap in text box, PUPBorad will appear automatically; By default it displays Inscript Keyboard Layout but you can choose Phonetic, Remington or English keyboard layout; Shift buttons can be seen by tapping on SHIFT button. ALT button helps to type special symbols and some special characters."
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />-->
+
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -34,39 +36,39 @@
             tools:context=".about">
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:paddingVertical="10dp"
-    android:background="@color/coltrans1"
-    android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="15dp"
-                android:padding="5dp"
-                android:text="ਪੰਜਾਬੀ ਬੋਰਡ (pBoard)"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:typeface="normal"
-                android:id="@+id/t1"/>
 
-            <TextView
-                android:id="@+id/t2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:padding="2dp"
-                android:text="ਪੰਜਾਬੀ ਦੇ ਤਿੰਨੋਂ ਕੀ-ਬੋਰਡਾਂ ਦੀ ਸਾਂਝੀ ਐਪ"
-                android:textSize="15sp" />
-</LinearLayout>
-            <TextView
-                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
-                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
-                android:text="--------------------" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingVertical="10dp"
+                android:background="@color/coltrans1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    android:text="ਪੰਜਾਬੀ ਬੋਰਡ (pBoard)"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
+                    android:id="@+id/t1"/>
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="0dp"
+                    android:padding="2dp"
+                    android:text="ਪੰਜਾਬੀ ਦੇ ਤਿੰਨੋਂ ਕੀ-ਬੋਰਡਾਂ ਦੀ ਸਾਂਝੀ ਐਪ"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,41 +77,38 @@
                 android:orientation="vertical"
                 android:background="@color/coltrans2"
                 android:layout_height="wrap_content">
-            <TextView
-                android:id="@+id/t3"
-                android:layout_width="wrap_content"
-                android:layout_height="25dp"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="2dp"
-                android:padding="0dp"
-                android:text="ਐਪ ਤਿਆਰ ਕਰਤਾ (App Developer)"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/t33"
-                android:layout_width="wrap_content"
-                android:layout_height="25dp"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:padding="0dp"
-                android:text="ਡਾ. ਸੀ ਪੀ ਕੰਬੋਜ (Dr. C P Kamboj)"
-                android:textSize="13sp"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/t4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/cp_address"
-                android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="2dp"
+                    android:padding="0dp"
+                    android:text="ਐਪ ਤਿਆਰ ਕਰਤਾ (App Developer)"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/t33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="0dp"
+                    android:padding="0dp"
+                    android:text="ਡਾ. ਸੀ ਪੀ ਕੰਬੋਜ (Dr. C P Kamboj)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="0dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/cp_address"
+                    android:textSize="15sp" />
             </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
-                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
-                android:text="--------------------" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -118,58 +117,39 @@
                 android:paddingVertical="10dp"
                 android:background="@color/coltrans3"
                 android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center"
-                android:padding="5dp" android:textSize="15sp" android:textStyle="bold"
-                android:text="ਤਕਨੀਕੀ ਸਹਿਯੋਗ (Technical Help)"
-                android:id="@+id/t31"/>
-            <TextView
-                android:id="@+id/t332"
-                android:layout_width="wrap_content"
-                android:layout_height="25dp"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:padding="0dp"
-                android:text="ਰਵਿੰਦਰ ਕੰਬੋਜ (Ravinder Kamboj)"
-                android:textSize="13sp"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/t41"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/about_adress_tuespot"
-                android:textSize="14sp"
-                android:textStyle="" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center"
+                    android:padding="5dp" android:textSize="15sp" android:textStyle="bold"
+                    android:text="ਤਕਨੀਕੀ ਸਹਿਯੋਗ (Technical Help)"
+                    android:id="@+id/t31"/>
+                <TextView
+                    android:id="@+id/t332"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="0dp"
+                    android:padding="0dp"
+                    android:text="ਰਵਿੰਦਰ ਕੰਬੋਜ (Ravinder Kamboj)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/t41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginTop="0dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/about_adress_tuespot"
+                    android:textSize="14sp"
+                    android:textStyle="" />
             </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center_vertical|center"
-                android:layout_margin="0dp" android:padding="0dp" android:textSize="13sp"
-                android:text="--------------------" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:gravity="center"
-                android:paddingVertical="10dp"
-                android:orientation="vertical"
-                android:background="@color/coltrans1"
-                android:layout_height="wrap_content">
-            <TextView
-                android:id="@+id/t441"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center"
-                android:layout_marginTop="0dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="@string/about_msg3"
-                android:textSize="14sp"
-                android:textStyle="" />
-            </LinearLayout>
+
+
+
+
         </LinearLayout></ScrollView>
 
 </LinearLayout>
