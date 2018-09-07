@@ -13,7 +13,6 @@ public class FirstScreen extends AppCompatActivity{
     private Timer timer;
     private ProgressBar progressBar;
     private int i=0;
-    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +20,6 @@ public class FirstScreen extends AppCompatActivity{
         setContentView(R.layout.first_screen);
         progressBar=(ProgressBar)findViewById(R.id.progressBar);
         progressBar.setProgress(0);
-        textView=(TextView)findViewById(R.id.textView);
-        textView.setText("");
 
         final long period = 30;
         timer=new Timer();

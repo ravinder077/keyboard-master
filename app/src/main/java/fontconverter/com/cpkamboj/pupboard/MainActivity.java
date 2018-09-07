@@ -1,5 +1,6 @@
 package fontconverter.com.cpkamboj.pupboard;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -36,7 +37,11 @@ public class MainActivity extends AppCompatActivity {
         set.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0);
+                startActivityForResult(new Intent(android.provider.Settings.ACTION_INPUT_METHOD_SETTINGS), 0);
+
+               /* Intent intent = new Intent();
+                intent.setComponent( new ComponentName("com.android.settings","com.android.settings.Settings$InputMethodAndLanguageSettingsActivity" ));
+                startActivity(intent);*/
             }
         });
 

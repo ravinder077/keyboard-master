@@ -14,4 +14,6 @@
     <string name="cp_address">ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ (Punjbai University Patiala)\nEmail : cpk@pbi.ac.in\nWeb : www.meracomputer.com , www.cpkamboj.com\nMob : 01753046566 (o)</string>
     <string name="name">ਨਾਮ (Name)</string>
     <string name="email">ਈ - ਮੇਲ (Email)</string>
+    <string name="powered">Powered by </string>
+    <string name="tuespot">Tuespot Solutions Pvt. Ltd.</string>
 </resources>
