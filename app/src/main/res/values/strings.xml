@@ -1,4 +1,26 @@
 <resources>
+<string name="app_name">pBoard</string>
+<string name="simple_ime">Simple IME</string>
+<string name="subtype_en_US">English (US)</string>
+
+
+
+<string name="keyboard">ਕੀ-ਬੋਰਡ (Keyboard)</string>
+<string name="settings">ਸਥਾਪਨ (Settings)</string>
+    <string name="help">ਮਦਦ (Help)</string>
+    <string name="cha">ਵਿਸ਼ੇਸ਼ਤਾ (Feature)</string>
+    <string name="feedback">ਸੁਝਾਅ (Feedback)</string>
+    <string name="about">ਸਾਡੇ ਬਾਰੇ (About us)</string>
+
+<string name="cp_kamboj">ਡਾ. ਸੀ ਪੀ ਕੰਬੋਜ ਦੁਆਰਾ ਵਿਕਸਿਤ</string>
+<string name="cp_kamboj1">Developed by Dr. C.P Kamboj</string>
+<string name="about_kb">ਇੱਕ ਹੀ ਐਪ (ਪੰਜਾਬੀ-ਬੋਰਡ) ਰਾਹੀਂ ਕਰੋ ਪੰਜਾਬੀ ਦੇ ਸਾਰੇ ਪ੍ਰਚਲਿਤ ਕੀ-ਬੋਰਡਾਂ ਰਾਹੀਂ ਟਾਈਪ</string>
+<string name="about_msg3"><![CDATA[ਪੀ-ਬੋਰਡ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸਮਾਰਟ ਫੋਨ ਦਾ ਹਿੱਸਾ ਪੀ-ਬੋਰਡ ਕਿਸੇ ਵੱਖਰੀ ਸਕਰੀਨ \'ਚ ਨਹੀਂ ਖੁਲ੍ਹਦਾ। ਇਹ ਸਿੱਧਾ ਹੀ ਤੁਹਾਡੇ ਸਮਾਰਟ ਫੋਨ ਦੇ ਕੀ-ਬੋਰਡ ਵਾਲੇ ਫੋਲਡਰ ਵਿਚ ਇੰਸਟਾਲ ਹੋ ਜਾਂਦਾ ਹੈ। ਮਲਟੀ-ਲੇਆਊਟ ਐਪ ਇਨਸਕਰਿਪਟ, ਫੋਨੈਟਿਕ, ਰਮਿੰਗਟਨ ਅਤੇ ਅੰਗਰੇਜ਼ੀ ਵਿਚ ਟਾਈਪ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਇੱਕ ਹੀ ਕੀ-ਬੋਰਡ ਵਿਚ ਸ਼ੁਮਾਰ। ਅਲਟ ਬਟਣ ਵਿਸ਼ੇਸ਼ ਚਿੰਨ੍ਹ ਅਤੇ ਆਮ ਵਰਤੋਂ ਵਾਲੇ ਅੱਖਰ ਜਿਹੜੇ ਆਮ ਕੀ-ਬੋਰਡ ਐਪ \'ਤੇ ਔਖੇ ਪੈਂਦੇ/ਲੱਭਦੇ ਹਨ, ਉਨ੍ਹਾਂ ਨੂੰ ਅਲਟ ਸਕਰੀਨ \'ਤੇ ਰੱਖਿਆ ਗਿਆ ਹੈ। ਯੂਨੀਕੋਡ ਆਊਟਪੁਟ ਆਧੁਨਿਕ ਤਕਨਾਲੋਜੀ ਦੇ ਹਾਣ ਦਾ ਬਣਨ ਲਈ ਯੂਨੀਕੋਡ (ਰਾਵੀ ਆਦਿ ਫੌਂਟ) ਵਿਚ ਟਾਈਪ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ। ਪੀ-ਬੋਰਡ ਦਾ ਵਿਕਾਸ ਇਸ ਤਰ੍ਹਾਂ ਕੀਤਾ ਗਿਆ ਹੈ ਕਿ ਇਸ ਦੀ ਆਊਟਪੁਟ ਯੂਨੀਕੋਡ ਅਧਾਰਿਤ ਹੈ ਜੋ ਦੁਨੀਆ ਦੇ ਹਰੇਕ ਕੰਪਿਊਟਰ/ਸਮਾਰਟ ਫੋਨ ਆਦਿ ਉੱਤੇ ਖੁਲ੍ਹਣਯੋਗ, ਪੜ੍ਹਨਯੋਗ ਅਤੇ ਛਾਪਣਯੋਗ ਹੈ। ਸਿਹਾਰੀ ਪਹਿਲਾਂ ਪਾਉਣ ਦੀ ਸੁਵਿਧਾ ਯੂਨੀਕੋਡ ਦੇ ਮਿਆਰੀ ਨਿਯਮਾਂ ਤਹਿਤ ਪੰਜਾਬੀ ਵਿਚ ਸਿਹਾਰੀ ਬਾਅਦ ਵਿਚ ਪਾਉਣ ਦੀ ਵਿਵਸਥਾ ਹੈ ਪਰ ਪੀ-ਬੋਰਡ ਵਿਚ ਇਸ ਨੂੰ ਵਿਸ਼ੇਸ਼ ਤਕਨੀਕ ਰਾਹੀਂ ਹੱਲ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸ ਵਿਚ ਸਿਹਾਰੀ ਨੂੰ ਪਹਿਲਾਂ ਪਾਇਆ ਜਾ ਸਕਦਾ ਹੈ।  ਪੀ-ਬੋਰਡ ਨੂੰ ਇੰਸਟਾਲ ਕਿਵੇਂ ਕਰੀਏ \n1. ਫੋਨ ਦੀਆਂ ਸੈਟਿੰਗਜ਼ ਖੋਲ੍ਹੋ।\n2. ਲੈਂਗੂਏਜਿਜ਼ ਐਂਡ ਇਨਪੁਟ \'ਤੇ ਦਬਾਓ।\n3. ਕਰੰਟ ਕੀ-ਬੋਰਡ ਤੇ ਫਿਰ ਚੂਜ਼ ਕੀ-ਬੋਰਡ \'ਤੇ ਜਾਓ।\n4. ਪੀ-ਬੋਰਡ ਦੀ ਚੋਣ ਕਰੋ।\n5. ਓਕੇ ਕਰੋ।\n6. ਮੋਬਾਈਲ ਦਾ ਬੈਕ ਬਟਣ ਦਬਾਓ।\n7. ਹੁਣ ਫਿਰ ਕਰੰਟ ਕੀ-ਬੋਰਡ ਤੇ ਜਾਓ ਤੇ ਇੱਥੋਂ ਪੀ-ਬੋਰਡ ਦੀ ਚੋਣ ਕਰੋ।\n8. ਹੁਣ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਐਪ (ਜਿਵੇਂ ਕਿ ਮੈਸੇਜ, ਵਟਸਐਪ, ਫੇਸਬੁਕ, ਈ-ਮੇਲ, ਗੂਗਲ ਆਦਿ) ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਟੱਚ ਕਰੋ।\n9. ਪੀ-ਬੋਰਡ ਖੁੱਲ੍ਹ ਜਾਵੇਗਾ।\n10. ਇੱਥੋਂ ਆਪਣੀ ਪਸੰਦ ਦਾ ਕੀ-ਬੋਰਡ ਚੁਣੋ ਤੇ ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰ ਦਿਓ।\n\n*ਪੀ-ਬੋਰਡ ਵਿਚ ਕੰਮ ਕਿਵੇਂ ਕਰੀਏ?\n*ਇਨਸਕਰਿਪਟ ਕੀ-ਬੋਰਡ ਲੇਆਊਟ ਸਰਕਾਰ ਦਾ ਮਿਆਰੀ ਲੇਆਊਟ ਹੈ। ਇਹ ਪਹਿਲਾਂ ਹੀ ਤੁਹਾਨੂੰ ਚਾਲੂ ਮਿਲੇਗਾ।\n*ਸ਼ਿਫਟ ਵਾਲੇ ਅੱਖਰ ਪਾਉਣ ਲਈ ਸ਼ਿਫਟ ਬਟਨ ਦੱਬੋ। ਤੁਹਾਨੂੰ ਇਸ ਬਟਣ ਉੱਤੇ ਇਕ ਛੋਟਾ ਬਲਬ ਜਗਦਾ ਨਜ਼ਰ ਆਵੇਗਾ।\n*ਵਿਸ਼ੇਸ਼ ਚਿੰਨ੍ਹ ਤੇ ਅੱਖਰ ਪਾਉਣ ਲਈ ਅਲਟ ਬਟਣ ਦਬਾਓ।\n*ਫੋਨੈਟਿਕ ਜਾਂ ਰਮਿੰਗਟਨ ਵਿਚ ਟਾਈਪ ਕਰਨ ਲਾਈ ਉੱਤੋਂ ਸਹੀ ਕੀ-ਬੋਰਡ ਦੀ ਚੋਣ ਕਰੋ।\n*ਹਰੇਕ ਕੀ-ਬੋਰਡ ਵਿਚ ਉੱਤੇ ਦੱਸੇ ਅਨੁਸਾਰ ਸ਼ਿਫਟ ਅਤੇ ਅਲ ਬਟਨ ਦਿੱਤੇ ਹੋਏ ਹਨ। ਇਨ੍ਹਾਂ ਰਾਹੀਂ ਸਿਫਟ ਵਾਲੇ ਅਤੇ ਖਾਸ ਸੰਕੇਤ ਪਾਏ ਜਾ ਸਕਦੇ ਹਨ।\n*ਅੰਗਰੇਜ਼ੀ ਕੀ-ਬੋਰਡ ਰਾਹੀਂ ਦੂਜੇ ਆਮ ਕੀ-ਬੋਰਡ ਐਪਜ਼ ਦੀ ਤਰ੍ਹਾਂ ਅੰਗਰੇਜ਼ੀ ਟਾਈਪ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਇਸ ਦੀ ਅਲਟ ਕੀਅ \'ਤੇ ਆਮ ਵਰਤੋਂ ਵਾਲੇ ਵਿਸ਼ੇਸ਼ ਚਿੰਨ੍ਹ ਦਿੱਤੇ ਗਏ ਹਨ।\n*ਸਭ ਤੋਂ ਉੱਤਲੀ ਕਤਾਰ \'ਤੇ ਹਰੇਕ ਕੀ-ਬੋਰਡ ਜਾਂ ਉਸ ਦੀ ਸ਼ਿਫਟ/ਅਲਟ ਸਥਿਤੀ ਨਜ਼ਰ ਆਉਂਦੀ ਹੈ।\n*ਇਨਸਕਰਿਪਟ, ਫੋਨੈਟਿਕ ਤੇ ਰਮਿੰਗਟਨ ਲੇਆਊਟ ਕੀ ਹਨ?\n\nਕਿਤਾਬ ਤੋਂ\nHow to install pBoard\n\nGo to SETTING > LANGUAGEAND INPUT > CURRENT KEYBOARD > CHOOSE KEYBOARD > SELECT PUPBoard \n\nOpen any Text Pad, SMS app, Whatsapp, Search Engine and tap in text box, PUPBorad will appear automatically.\n\nBy default it displays Inscript Keyboard Layout but you can choose Phonetic, Remington or English keyboard layout.\n\nShift buttons can be seen by tapping on SHIFT button. ALT button helps to type special symbols and some special characters.]]></string>
+<string name="about_adress_tuespot">TueSpot Solutions Pvt. Ltd., FF Raod, Jalalabad (west)\nWeb : www.tuespotsolutions.com\nEmail : info@tuespotsolutions.com\nMob : 9597151742</string>
+<string name="cp_address">ਪੰਜਾਬੀ ਯੂਨੀਵਰਸਿਟੀ ਪਟਿਆਲਾ (Punjbai University Patiala)\nEmail : cpk@pbi.ac.in\nWeb : www.meracomputer.com , www.cpkamboj.com\nMob : 01753046566 (o)</string>
+<string name="name">ਨਾਮ (Name)</string>
+<string name="email">ਈ - ਮੇਲ (Email)</string>
+
     <string name="app_name">pBoard</string>
     <string name="simple_ime">Simple IME</string>
     <string name="subtype_en_US">English (US)</string>

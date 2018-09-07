@@ -21,6 +21,7 @@ import android.preference.PreferenceManager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Adapter;
 import android.widget.ListView;
@@ -32,6 +33,7 @@ import java.util.List;
 
 public class SimpleIME extends InputMethodService
         implements KeyboardView.OnKeyboardActionListener {
+
 
     private KeyboardView kv;
     private Keyboard keyboard;
@@ -564,6 +566,17 @@ public class SimpleIME extends InputMethodService
                         if (Character.isLetter(code) && caps) {
                             code = Character.toUpperCase(code);
                         }
+                       /* //////////////////web view
+                        String text="<html><body><p align=\"justify\"> कृपया\n" +
+                                "इस post को\n" +
+                                "ज्यादा से ज्यादा share करे,\n" +
+                                "जिससे ज्यादा से ज्यादा लोगो तक\n" +
+                                "ये अच्छी post पहुँच सके ll</p><p align=\"justify\"> <font color=\"red\">ਕੀ ਤੁਸੀਂ ਅਧੀਨ ਸੇਵਾਵਾਂ ਚੋਣ ਬੋਰਡ ਦਾ ਟਾਈਪਿੰਗ ਟੈਸਟ ਦੇਣ ਜਾ ਰਹੇ ਹੋ, ਜੇ ਹਾਂ ਤਾਂ ਇਨ੍ਹਾਂ ਗੱਲਾਂ ਦਾ</font></p></body></html>";
+                        WebSettings webSettings=web.getSettings();
+                        webSettings.setDefaultTextEncodingName("utf-8");
+                        web.loadData(text,"text/html;charset=utf-8","utf-8");
+
+                        ///////////////////////*/
 
 /*
                         Drawable myIcon = getResources().getDrawable( R.drawable.ic_launcher_background);
@@ -666,4 +679,5 @@ public class SimpleIME extends InputMethodService
 
         return sb.toString();
     }
+
 }

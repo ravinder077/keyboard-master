@@ -21,7 +21,7 @@ public class FirstScreen extends AppCompatActivity{
         progressBar=(ProgressBar)findViewById(R.id.progressBar);
         progressBar.setProgress(0);
 
-        final long period = 30;
+        final long period = 10;
         timer=new Timer();
         timer.schedule(new TimerTask() {
             @Override
