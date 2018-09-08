@@ -101,6 +101,7 @@
             android:weightSum="2"
             >
             <Button
+                android:id="@+id/keyboard"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"

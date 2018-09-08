@@ -45,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        key=findViewById(R.id.keyboard);
+        key.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Keyboards.class));
+            }
+        });
+
     }
 }
